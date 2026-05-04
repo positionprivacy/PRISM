@@ -1,0 +1,1 @@
+{"id": "example_0001", "language": "en", "instruction": "Write a Manim CE v0.19.0 scene that explains a linear function y = ax + b. Show axes, draw a line, and label slope and intercept. Output only executable Python code."}

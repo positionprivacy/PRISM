@@ -1,0 +1,6 @@
+{
+  "mu": -3.5,
+  "sigma": 0.7,
+  "eps": 1e-08,
+  "note": "Placeholder values for smoke tests only; fit on your reference set."
+}

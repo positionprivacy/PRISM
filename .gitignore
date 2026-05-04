@@ -1,0 +1,22 @@
+.tmp/
+.cache/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Local datasets and generated outputs
+data/*
+!data/README.md
+!data/README.zh.md
+!data/examples/
+!data/examples/**
+results/*
+!results/README.md
+!results/README.zh.md
+!results/examples/
+!results/examples/**
+
+# Secrets and local provider config
+manim_bench/llm_call/config.json
+.env
+*.key
