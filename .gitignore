@@ -8,8 +8,8 @@ __pycache__/
 data/*
 !data/README.md
 !data/README.zh.md
-!data/prism_manim_bench.jsonl
-!data/prism_manim_bench.summary.json
+!data/prism_dataset.jsonl
+!data/prism_dataset.summary.json
 !data/examples/
 !data/examples/**
 results/*

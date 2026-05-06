@@ -6,8 +6,8 @@
 
 ## 文件
 
-- `prism_manim_bench.jsonl`：完整 benchmark 数据集，共 10,372 条。
-- `prism_manim_bench.summary.json`：发布数据的清洗与验证摘要。
+- `prism_dataset.jsonl`：完整 benchmark 数据集，共 10,372 条。
+- `prism_dataset.summary.json`：发布数据的清洗与验证摘要。
 
 ## 字段
 

@@ -6,8 +6,8 @@ This directory contains the released PRISM benchmark dataset.
 
 ## Files
 
-- `prism_manim_bench.jsonl`: full benchmark dataset with 10,372 examples.
-- `prism_manim_bench.summary.json`: validation and cleaning summary for the released dataset.
+- `prism_dataset.jsonl`: full benchmark dataset with 10,372 examples.
+- `prism_dataset.summary.json`: validation and cleaning summary for the released dataset.
 
 ## Schema
 
