@@ -1,14 +1,21 @@
-# 本地数据工作区
+# PRISM 数据集
 
 [English](README.md) | 中文
 
-这里用于放置本地数据集、manifest、Markdown 讲义和参考代码。
+这里包含已发布的 PRISM benchmark 数据集。
 
-建议结构：
+## 文件
 
-- `data/markdowns/`
-- `data/manifests/`
-- `data/reference_jsonl/`
-- `data/reference_code/`
+- `prism_manim_bench.jsonl`：完整 benchmark 数据集，共 10,372 条。
+- `prism_manim_bench.summary.json`：发布数据的清洗与验证摘要。
 
-快速 smoke test 可以直接使用 `examples/` 下的 toy 文件。
+## 字段
+
+每一行 JSONL 包含四个字段：
+
+- `id`：匿名化后的 PRISM 样本编号。
+- `language`：`en` 或 `zh`。
+- `instruction`：与语言一致的 benchmark 指令。
+- `reference_answer`：参考 Manim 代码答案。
+
+发布数据包含 5,199 条英文样本和 5,173 条中文样本。

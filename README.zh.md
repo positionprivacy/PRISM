@@ -4,7 +4,7 @@
 
 这是一个用于评测 Manim 代码输出的轻量 benchmark 工具仓库，重点覆盖渲染、确定性空间审计、PADVC/TD 计算和文本扩展度分析。仓库中也提供了一个小型生成封装，但主要工作流是评测而不是生成。
 
-你可以先使用 `examples/` 中的 toy 文件进行 smoke test，再将自己的 prompts、manifests、参考代码和评测输出放到 `data/` 与 `results/`，或通过环境变量指定自定义路径。
+已发布的 10,372 条 PRISM 数据集位于 `data/` 目录。你可以先使用 `examples/` 中的 toy 文件进行 smoke test，再将额外 prompts、manifests、参考代码和评测输出放到 `data/` 与 `results/`，或通过环境变量指定自定义路径。
 
 ## 仓库结构
 
@@ -12,7 +12,7 @@
 - `manim_bench/llm_call/`：用于可选生成的最小化 LLM 调用封装
 - `docs/`：数据格式、指标和审计语义的技术文档
 - `examples/`：小型示例输入和配置模板
-- `data/`：本地数据工作区
+- `data/`：已发布的 PRISM 数据集与本地数据工作区
 - `results/`：本地结果工作区
 
 ## 系统依赖

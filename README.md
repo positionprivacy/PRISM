@@ -4,7 +4,7 @@ English | [中文](README.zh.md)
 
 A lightweight benchmark toolkit for evaluating Manim code outputs. It focuses on rendering, deterministic spatial audit, PADVC/TD scoring, and text-expansion analysis. A small generation wrapper is included, but evaluation is the primary workflow.
 
-Use the toy files in `examples/` for smoke tests, then place your own prompts, manifests, reference code, and evaluation outputs under `data/` and `results/` or configure custom paths with environment variables.
+The released 10,372-example PRISM dataset is provided under `data/`. Use the toy files in `examples/` for smoke tests, then place additional prompts, manifests, reference code, and evaluation outputs under `data/` and `results/` or configure custom paths with environment variables.
 
 ## Repository Layout
 
@@ -12,7 +12,7 @@ Use the toy files in `examples/` for smoke tests, then place your own prompts, m
 - `manim_bench/llm_call/`: minimal LLM client wrapper for optional generation
 - `docs/`: technical documentation for data formats, metrics, and audit semantics
 - `examples/`: small toy inputs and configuration examples
-- `data/`: local dataset workspace
+- `data/`: released PRISM dataset and local dataset workspace
 - `results/`: local output workspace
 
 ## System Requirements

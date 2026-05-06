@@ -1,0 +1,164 @@
+{
+  "source_path": "/data/zqr/exp/zhangqiran/data/final_nonoverlap_bilingual_en5206_zh5179_originalzh.jsonl",
+  "output_path": "/data/zqr/exp/zhangqiran/data/final_nonoverlap_bilingual_en5206_zh5179_originalzh.jsonl",
+  "id_map_path": "/data/zqr/exp/zhangqiran/data/final_nonoverlap_bilingual_en5206_zh5179_originalzh.id_map.jsonl",
+  "id_scheme": "PRISM-EN/ZH-000001",
+  "final_total": 10372,
+  "english_count": 5199,
+  "chinese_count": 5173,
+  "schema": [
+    "id",
+    "language",
+    "instruction",
+    "reference_answer"
+  ],
+  "language_counts": {
+    "en": 5199,
+    "zh": 5173
+  },
+  "duplicate_id_count": 0,
+  "duplicate_instruction_count": 297,
+  "duplicate_reference_answer_count": 0,
+  "duplicate_exact_sample_count": 0,
+  "busy_in_instruction_count": 0,
+  "busy_in_reference_answer_count": 0,
+  "syntax_error_count": 0,
+  "missing_manim_import_count": 0,
+  "no_scene_class_count": 0,
+  "ImageMobject_rows": 0,
+  "SVGMobject_rows": 1,
+  "open_or_imread_rows": 0,
+  "wait_rows": 8431,
+  "wait_calls_total": 25212,
+  "wait_seconds_total": 35392.33,
+  "rows_wait_ge10": 100,
+  "rows_wait_sec_ge20": 16,
+  "rows_wait_sec_ge60": 0,
+  "max_wait_calls": 21,
+  "max_wait_seconds": 29.0,
+  "top_wait_seconds": [
+    [
+      12,
+      29.0,
+      2577,
+      "PRISM-EN-002577",
+      "en"
+    ],
+    [
+      15,
+      25.0,
+      405,
+      "PRISM-EN-000405",
+      "en"
+    ],
+    [
+      21,
+      25.0,
+      4905,
+      "PRISM-EN-004905",
+      "en"
+    ],
+    [
+      11,
+      23.0,
+      288,
+      "PRISM-EN-000288",
+      "en"
+    ],
+    [
+      13,
+      23.0,
+      4651,
+      "PRISM-EN-004651",
+      "en"
+    ],
+    [
+      7,
+      22.5,
+      4705,
+      "PRISM-EN-004705",
+      "en"
+    ],
+    [
+      14,
+      22.0,
+      545,
+      "PRISM-EN-000545",
+      "en"
+    ],
+    [
+      7,
+      22.0,
+      2499,
+      "PRISM-EN-002499",
+      "en"
+    ]
+  ],
+  "top_wait_calls": [
+    [
+      21,
+      25.0,
+      4905,
+      "PRISM-EN-004905",
+      "en"
+    ],
+    [
+      19,
+      21.0,
+      4346,
+      "PRISM-EN-004346",
+      "en"
+    ],
+    [
+      19,
+      19.8,
+      4906,
+      "PRISM-EN-004906",
+      "en"
+    ],
+    [
+      15,
+      25.0,
+      405,
+      "PRISM-EN-000405",
+      "en"
+    ],
+    [
+      15,
+      18.5,
+      2517,
+      "PRISM-EN-002517",
+      "en"
+    ],
+    [
+      15,
+      15.0,
+      3881,
+      "PRISM-EN-003881",
+      "en"
+    ],
+    [
+      15,
+      13.5,
+      4904,
+      "PRISM-EN-004904",
+      "en"
+    ],
+    [
+      14,
+      22.0,
+      545,
+      "PRISM-EN-000545",
+      "en"
+    ]
+  ],
+  "svg_examples": [
+    [
+      4327,
+      "PRISM-EN-004327",
+      1
+    ]
+  ],
+  "missing_import_examples": [],
+  "note": "Duplicate instructions are intentionally retained. Server-busy residual text was removed from reference answers."
+}
