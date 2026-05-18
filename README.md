@@ -1,5 +1,4 @@
 <h1 align="center">
-  <img src="figs/prism-logo.png" alt="PRISM logo" width="72" style="vertical-align: -20px; margin-right: 8px;">
   PRISM: A Benchmark for Programmatic Spatial-Temporal Reasoning
 </h1>
 
@@ -41,7 +40,7 @@ The released PRISM dataset is bundled under `data/`. It contains 10,372 examples
 ## 🧪 Evaluation
 
 <p align="center">
-  <img src="figs/eval.png" alt="PRISM evaluation funnel" width="860">
+  <img src="figs/eval.png" alt="PRISM evaluation funnel" width="300">
 </p>
 
 PRISM evaluates outputs through a progressive funnel:
