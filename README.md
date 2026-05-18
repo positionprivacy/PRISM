@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="figs/prism-logo.png" alt="PRISM logo" width="72" style="vertical-align: -15px; margin-right: 8px;">
+  <img src="figs/prism-logo.png" alt="PRISM logo" width="72" style="vertical-align: -20px; margin-right: 8px;">
   PRISM: A Benchmark for Programmatic Spatial-Temporal Reasoning
 </h1>
 
